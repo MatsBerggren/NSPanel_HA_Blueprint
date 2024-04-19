@@ -107,6 +107,7 @@ psram:
 
 ##### WIFI SETUP #####
 wifi:
+  use_address: ${use_address}
   id: wifi_component
   power_save_mode: LIGHT
   networks:
